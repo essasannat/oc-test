@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaBeer } from "react-icons/fa";
 
 export default function Home() {
@@ -8,7 +9,11 @@ export default function Home() {
         {" "}
         Hello Openshift <FaBeer className="inline" />
       </div>
-      <p className="text-slate-100"> Added Pipeline action for CD </p>
+      <p className="text-slate-100">
+        {" "}
+        Added Database api route{" "}
+        <Link href="/api/test-db-connection/">Test Db Connection</Link>{" "}
+      </p>
     </main>
   );
 }
