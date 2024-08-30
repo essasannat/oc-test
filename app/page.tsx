@@ -15,6 +15,12 @@ export default function Home() {
         <Link href="/api/test-db-connection/">Test Db Connection</Link>{" "}
       </p>
       <p>Added webhook in github to trigger Openshift build</p>
+      <p>
+        Added users list from database page{" "}
+        <Link href="/users" className="text-amber-700">
+          Here
+        </Link>
+      </p>
     </main>
   );
 }
