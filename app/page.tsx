@@ -14,6 +14,7 @@ export default function Home() {
         Added Database api route{" "}
         <Link href="/api/test-db-connection/">Test Db Connection</Link>{" "}
       </p>
+      <p>Added webhook in github to trigger Openshift build</p>
     </main>
   );
 }
