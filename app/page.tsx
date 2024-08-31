@@ -31,8 +31,8 @@ export default async function Home() {
           Users Page
         </Link>
       </p>
-      {users.map((user) => (
-        <div>
+      {users.map((user, index) => (
+        <div key={index}>
           <p>username: {user.username}</p>
           <p>email: {user.email}</p>
         </div>
